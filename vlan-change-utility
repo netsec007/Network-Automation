@@ -53,7 +53,7 @@ while loop:     # While loop which will keep going until loop = False
         print ('\nShowing Current Configuration')
         output = net_connect.send_command('show run int '+interface)
         print (output)
-        changeDecision = input('\nWould you like to change the vlan? Type "Yes" or "No": ').upper()     
+        changeDecision = input('\nType "Yes" to change the VLAN or press any key to return: ').upper()
 # Starting VLAN configuration
         if changeDecision == 'YES' or changeDecision == 'Y':
             vlanNumber = input ('\nPlease assign VLAN number: ') # User enters VLAN number
