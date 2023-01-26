@@ -7,7 +7,7 @@ from getpass import getpass
 
 import socket
 
-print ('Welcome to the VLAN change utility.')
+print ('VLAN change utility.')
 
 # Determines which device to log into
 deviceName = input('\nPlease enter the DNS name of a device to get started e.g core1-sitecode: ')
